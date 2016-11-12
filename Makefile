@@ -1,8 +1,8 @@
 # Change this path if the SDK was installed in a non-standard location
-OPENCL_HEADERS = "/opt/AMDAPPSDK-3.0/include"
+OPENCL_HEADERS = "/usr/include"
 # By default libOpenCL.so is searched in default system locations, this path
 # lets you adds one more directory to the search path.
-LIBOPENCL = "/opt/amdgpu-pro/lib/x86_64-linux-gnu"
+LIBOPENCL = "/usr/local/cuda-8.0/lib64"
 
 CC = gcc
 CPPFLAGS = -I${OPENCL_HEADERS}

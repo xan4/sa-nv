@@ -112,6 +112,8 @@ subsection below:
 
 ### Ubuntu 16.04 / Nvidia
 
+sudo apt-get install nvidia-cuda-toolkit
+
 1. Install the OpenCL development files and the latest driver:
    `$ sudo apt-get install nvidia-opencl-dev nvidia-361`
 
